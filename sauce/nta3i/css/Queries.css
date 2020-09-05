@@ -1,0 +1,191 @@
+/*small screens .......................*/
+/*small screens 0->672px*/
+@media only screen and (max-width:672px)
+{ 
+.dhab69,.fda69,.vip69
+    {
+        font-size: 100%
+    }
+.covid ,.v19
+{
+   
+    margin-right: 8px;
+}    
+.covid li,.v19 li
+    {
+        font-size: 75%;
+    }
+    
+.fme
+    {
+        font-size: 75%;
+    }
+    
+.col
+    {
+        width: 100%;
+    }
+    
+section
+    {
+        text-align: center;
+    }
+.p2,.p3
+    {
+        margin: 5%;
+    }
+    
+.p1
+    {
+        margin-right: 6%;
+    }
+    
+.s1
+    {
+        margin-bottom: 4.5%;
+    }
+/*we hide the nav bcuz it look like shit tbh we are gonna use jq*/
+.silver1
+    {
+        display: none;
+    }
+.nav-icon
+    {
+        display: inline-block;
+        padding-top: 20px;
+    }
+    
+.silver1
+    {    
+    margin-top: 15px;
+    padding: 3px;
+    float: left;
+    list-style: none;
+    
+    }
+    
+.silver1 li
+    {
+       display:block;
+       font-size: 120%;
+       padding:1px;
+       margin-right:0;
+       height: 30px;
+       width: auto;
+    }
+.silver1 li a:link,
+.silver1 li a:visited
+    {
+        display: block;
+        border:0;
+        padding:0;
+    }
+/******this shit is for the nav bar after the header ****************/
+.stickman .silver1
+{
+    margin-top:15px;
+} 
+
+.stickman .silver1 li a:link,
+.stickman .silver1 li a:visited
+{
+    text-align: center;
+    color: #6f6f6f;
+    padding :0;
+    border: 0;
+
+}
+.stickman .nav420  
+    {
+    color:#6f6f6f;
+    }
+.nav
+    {
+       display: inline-block;
+        float: right;
+    }
+  
+.vip69,.dhab69,.fda69,moto
+    {
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width:797px)
+{
+    .covid li,.v19 li
+    {
+        font-size: 100%;
+    }
+}
+
+/*small screens 672px ->1023px */
+@media only screen and (max-width:1023px)
+{
+    
+body
+{
+        font-size: 18px;
+}
+    
+section
+{
+  padding: 60px 0;
+}
+    
+pouss
+{
+  width:80%;
+  margin-left: 10%;
+}
+    
+ion-icon 
+{
+  font-size: 40px;
+}
+    
+baki 
+{
+  padding-right: 3%;
+}
+    
+}
+    
+/*.....................................*/
+/* screens 1023px ->1200px */
+@media only screen and (max-width:1200px)
+{
+.rasse,
+.flash    
+ {
+    position: absolute;
+    width: 100%;
+    padding:0 2%;
+
+ }
+    
+.row
+    {
+        padding: 0 2%;
+    }
+    
+.terf1
+    {
+        padding-top: 0%;
+        padding-bottom: 0%;
+        width: 100%;
+    }
+    
+ section
+    {
+        padding:40px 0;
+    }
+    
+ .lol
+    {
+        padding: 0px 0px;
+        height: 80%; 
+    }
+    
+}

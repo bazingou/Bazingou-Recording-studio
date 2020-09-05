@@ -1,0 +1,672 @@
+/* ........................section 0 i guess.................................*/
+*
+{ margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+    
+}
+/*..............................HTML...............................................*/
+html
+{
+    background-color: #fff;
+    color: rgb(67, 67, 90);
+    text-rendering: optimizeLegibility;
+    font-family: "Source Sans Pro","Arial",sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+/*..............................ROW................................................*/
+.row
+{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*............................HEADER.............................................*/
+header
+{
+    
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.65)),to(rgba(0, 0, 0, 0.65))),url(img/back%20image%20opti.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(img/back%20image%20opti.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*****************scnd page header********************/
+.section9
+{
+  background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.65)),to(rgba(0, 0, 0, 0.65))),url(img/khkh%20opti.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url(img/khkh%20opti.jpg);
+  height: 50vh;
+  background-size: cover;  
+  background-position: center;
+}
+.flash
+{   margin-top: 50px;
+    position: absolute;
+    width: 1140px;
+    top: 20%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+/*section .....................*/
+section 
+{
+    padding: 80px 0 ;
+}
+/*section 2 box style................*/
+.s20
+{
+padding: 1%;
+}
+.s20 p
+{
+    font-size: 90%;
+    line-height: 150%;
+}
+/*icons section 2*/
+ion-icon {
+  font-size: 64px;
+     color: #b80b40;
+}
+/* ..............stickman setion jq ******************/
+.stickman
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0 2px 2px #d6d6d6;
+    box-shadow: 0 2px 2px #d6d6d6;
+    z-index: 9999;
+}
+
+.stickman .silver1
+{
+    margin-top: 28px;
+} 
+
+.stickman .silver1 li a:link,
+.stickman .silver1 li a:visited
+{
+    text-align: center;
+    color: #6f6f6f;
+    padding :25px 0px;
+    padding-top: 45px;
+
+}
+.stickman .logo-b
+{
+    display: block;
+}
+.stickman .logo-w
+{
+    display: none;
+}
+
+
+
+/*rasse.............................................*/
+.rasse
+{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+/*....body...........................................*/
+
+/*elm...............................................*/*
+/*h1*/
+h1
+{
+    margin: 0;
+    color:rgb(15, 174, 222);
+    font-size: 220%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+   
+}
+/*h2*/
+h2
+{   word-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+h2:after
+{
+    display: block;
+    height: 2px;
+    background-color: #b80b40;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top:  30px;
+}
+/*h3*/
+h3
+{   word-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+/*ktibba section 2  */
+
+.pouss
+{
+    line-height: 130%;
+    width:70%;
+    margin-left: 15%;
+    padding-bottom: 40px;
+}
+
+
+/*btns..............................................*/
+.btn:link,
+.btn:visited
+{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.4s,border 0.4s ,color 0.4s;
+    transition: background-color 0.4s,border 0.4s ,color 0.4s;
+}
+/*at first btn1 was 1 thene i made a mistake so btn1 =2/btn2=first btn */
+.btn1:link,
+.btn1:visited
+{
+    border: 1px solid #4caa53;
+    color: #fff;
+    background-color: rgba(48, 255, 120, 0.63);
+    margin-right: 15px;
+}
+.btn2:link,
+.btn2:visited
+{
+    border: 1px solid rgba(54, 255, 6, 0.7);;
+    color: rgba(54, 255, 6, 0.7);
+    margin-right: 15px;
+}
+.btn:hover,
+.btn:active
+{
+    background-color: #36ff06;
+
+}
+.btn1:hover,
+.btn1:active
+{
+    border: 1px solid #36ff06;
+    color: #fff;
+    background-color: #36ff06;
+}
+.btn2:hover,
+.btn2:active
+{
+    border: 1px solid #9efc92;
+    color: #fff;
+}
+/*........................................................*/
+/*top sectoin of the web header nav wa logo*/
+/*logo*/
+.logo-w
+{
+    height:130px;
+    width: auto;
+    float: left;
+    margin-top: 30px;
+}       
+.logo-b
+{   
+    height:60px;
+    width: auto;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: none;
+}
+/***********************SILVER 1=ul nav ********************************************/
+.silver1
+{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+} 
+.silver1 li
+{
+    display: inline-block;
+    margin-left: 40px;
+}
+.silver1 li a:link,
+.silver1 li a:visited
+{
+    font-size: 90%;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding :7px 0px;
+    -webkit-transition: border 0.4s;
+    transition: border 0.4s;
+    border-bottom: 2px solid transparent;
+     
+}
+/*border transparent for better animation */
+
+.silver1 li a:hover,
+.silver1 li a:active
+{
+    border-bottom: 2px solid #c21cff ;
+}
+/*******************NAV ICON*********************/
+.nav-icon
+{   
+    float: right;
+    margin:15px;
+    cursor: pointer;
+    display: none;
+}
+.nav420
+{
+    color: white;
+}
+
+/********************************section 3 images**********************************/
+.csgo
+{
+    padding: 0;
+    padding-top: 120px;
+}
+.m16
+{
+    list-style: none;
+    width: 100%;
+}
+.m16 li
+{
+    display: block;
+    float: left;
+    width: 25%;
+
+}
+.ak47
+{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+.ak47 img
+{   opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: opacity 0.3s,-webkit-transform 0.3s;
+    transition: opacity 0.3s,-webkit-transform 0.3s;
+    transition: transform 0.3s,opacity 0.3s;
+    transition: transform 0.3s,opacity 0.3s,-webkit-transform 0.3s;
+}
+.ak47 img:hover
+{
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    opacity: 1;
+}
+/*section4 */
+.dota {
+    background-color:#2f3640;
+    color: #ffffff;
+    width: 100%;
+   
+}
+
+.terf1:first-child
+{
+    padding: 3% 3%;
+    padding-top: 2%;
+    border: 2px solid #fff9f9;
+}
+.terf1:last-child
+{
+    padding: 3%;
+    padding-top: 5px;
+}
+.kaka
+{  
+    width: 100%;
+}
+/*........................banana.......................*/
+.banana
+{
+   margin: 1% 0%;
+   padding: 2% 0%;
+   text-align: center;
+}
+.banana div
+{
+  
+    border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding-bottom: 5%;
+    font-size: 150%;
+    text-align: center;
+    padding-top: 1%;
+    margin-bottom: 2%;
+    
+}
+/*..............................*/
+.wa7ed
+{
+    color: #05c46b;
+    border: 2px solid #05c46b ;
+}
+
+.zouj
+{
+    color: #00d8d6;
+    border: 2px solid #00d8d6;
+}
+.tro
+{
+    color: #0fbcf9;
+    border: 2px solid #0fbcf9;
+}
+/*lmouchkel nta3 float ylazm clearfix fl ul eml 1 and 2 */
+.clearfix {zoom:1}
+.clearfix:after
+{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/*.............section 5 "lol"............*/
+/*.....twitter insta and fb icons........ */
+.twitter
+{
+    color: #00acee;
+    font-size: 20px;
+}
+/*.........twitter logo footer.........*/
+.twitterb
+{   color: #00acee;
+    font-size: 30px;
+}
+/*.............insta..................*/
+.insta {
+    color: #3f729b;
+    font-size: 20px;
+}
+/*.........insta logo footer.........*/
+.instab
+{
+    color: #3f729b;
+    font-size: 30px;
+}
+/*................fb.....................*/
+.fb {
+    color: #3b5998;
+    font-size: 20px;
+}
+/*.........fb logo footer.........*/
+.fbb
+{   
+    color: #3b5998;
+    font-size: 30px;   
+}
+/*.............sound cloud...........*/
+.sndcld
+{
+    color: #ff7700;
+    font-size: 30px; 
+}
+/*.......................................*/
+.linkotw,
+.linkois,
+.linkofb
+{
+    text-decoration: none;
+    border-bottom color: transparent;
+    color: #fff;
+}
+/*****************************************/
+.tftifa
+{
+    color: white;
+}
+.sba7 img
+{
+    width: 100%;
+    height: auto;
+}
+/*..........section 5 image css.............*/
+.lol
+{
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(0, 0,0,0.8))),url(img/tafitfaimg%20opti.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0,0,0.8)),url(img/tafitfaimg%20opti.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    height: 750px;
+    padding-top: 120px;
+}
+/*.......................................................................*/
+/*...........................SECTION SIGN UP.........................................*/
+.fda
+{
+    color: silver;
+}
+.fda69
+{
+    text-align: left;
+    font-size: 200%;
+    color: silver;
+    padding: 4%;
+}
+.dhab
+{
+    color: gold;
+}
+.dhab69
+{   
+    text-align: left;
+    font-size: 200%;
+    color: gold;
+    padding: 4%;
+}
+.vip
+{
+    color:#0be881; 
+}
+.vip69
+{   
+    text-align: left;
+    font-size: 200%;
+    color: #0be881;
+    padding: 4%;
+}
+/*...............button................*/
+
+.baki
+{
+    list-style-type: circle;
+    list-style-position:inside;
+    padding-left: 3%;
+}
+.zir1,.zir2,.zir3
+{
+    padding: 20px 40px;
+    background: none;
+    cursor: pointer;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+   
+}
+.zir1::before,.zir2::before,.zir3::before
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    z-index: -1;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+}
+.zir1::before
+{
+  background: #bdc3c7;
+}
+.zir2::before
+{
+    background: gold;
+}
+.zir3::before
+{
+    background: #0be881;
+}
+/****************sign up**********************/
+.p1,.p2,.p3
+{
+    color: white;
+    margin: 10%;
+}
+.p1:hover,.p2:hover,.p3:hover
+{
+    color: black;
+}
+.p1::before,.p2::before,.p3::before
+{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+    height: 180%;
+}
+.p1:hover::before,.p2:hover::before,.p3:hover::before
+{
+    height: 0%;
+    color: black;
+}
+
+/*******************footer**********************/
+
+footer    
+{
+    background-color:#2f3640;
+}
+/***************************************************/
+.covid li
+{   list-style: none;
+    float: left;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+/*************************************************/
+.covid li a
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.v19 
+{   float: right;
+    list-style: none;
+    float: right;
+}
+.covid ,.v19
+{
+   
+    margin-right: 20px;
+}
+.fme
+{
+    color: white;
+}
+.covid li a:hover
+{
+    color: #009432;
+   -webkit-transition: 0.3s;
+   transition: 0.3s;
+}
+h1
+{
+    margin: none;
+}
+
+.5oubz 
+{ margin-bottom:0px;
+  color: red;
+    
+}
+.opo 
+{
+    padding: 3%;
+}
+
+.valor 
+{
+    padding-top: 120px;
+}
+
+.sign-up 
+{
+    padding-top: 120px;
+}
+
+.voedka {
+    padding-right: 10px;
+}
+
+.home {
+    color: white;
+    float: right;
+    margin-top:45px;
+    margin-left: 30px;
+}
+
+.war9a {
+    margin-top: 80px;
+}
+
+
+
+.syop {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.rjel {
+    height: 30vh;
+    margin-top: 50px;
+}
